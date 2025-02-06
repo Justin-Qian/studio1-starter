@@ -14,7 +14,6 @@ let app = createApp({
 	methods: {
 		addItem() {
 			this.tasks.push({});
-
 			this.setActive();
 		},
 
