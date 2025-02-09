@@ -7,6 +7,7 @@
 </head>
 <body>
 	<div id="app">
+		<ma-data src="local:tasks" v-model="tasks" autosave></ma-data>
 		<h1> To-Do List </h1>
 		<h2> {{count(get(tasks, "*.done"))}} Done of {{tasks.length}} Total </h2>
 		<ul>
